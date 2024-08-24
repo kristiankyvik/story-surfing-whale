@@ -1,6 +1,5 @@
-import { Home, PlusCircle } from "lucide-react";
+import { Home } from "lucide-react";
 import Index from "./pages/Index.jsx";
-import CreateNote from "./pages/CreateNote.jsx";
 
 /**
  * Central place for defining the navigation items. Used for navigation components and routing.
@@ -11,11 +10,5 @@ export const navItems = [
     to: "/",
     icon: <Home className="h-4 w-4" />,
     page: <Index />,
-  },
-  {
-    title: "Create Note",
-    to: "/create-note",
-    icon: <PlusCircle className="h-4 w-4" />,
-    page: <CreateNote />,
   },
 ];
